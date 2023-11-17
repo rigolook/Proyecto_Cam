@@ -16,10 +16,7 @@ namespace Proyecto_Cam
         {
             InitializeComponent();
 
-            Bitmap img = new Bitmap(Application.StartupPath + @"\img\TeslaImagen1.jpg");
-            this.BackgroundImage = img;
-
-            this.BackgroundImageLayout = ImageLayout.Stretch;
+            
         }
 
         private void button1_Click(object sender, EventArgs e)

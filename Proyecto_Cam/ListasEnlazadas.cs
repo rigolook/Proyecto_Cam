@@ -15,10 +15,7 @@ namespace Proyecto_Cam
         public ListasEnlazadas()
         {
             InitializeComponent();
-            Bitmap img = new Bitmap(Application.StartupPath + @"\img\TeslaImagen1.jpg");
-            this.BackgroundImage = img;
-
-            this.BackgroundImageLayout = ImageLayout.Stretch;
+            
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -37,6 +34,11 @@ namespace Proyecto_Cam
         }
 
         private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
         {
 
         }

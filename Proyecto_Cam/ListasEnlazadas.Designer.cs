@@ -41,7 +41,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.ForeColor = System.Drawing.Color.Lime;
-            this.label1.Location = new System.Drawing.Point(330, 28);
+            this.label1.Location = new System.Drawing.Point(357, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(167, 13);
             this.label1.TabIndex = 0;
@@ -63,39 +63,52 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(280, 210);
+            this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
+            this.button2.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button2.Location = new System.Drawing.Point(12, 226);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(86, 44);
+            this.button2.Size = new System.Drawing.Size(86, 48);
             this.button2.TabIndex = 2;
             this.button2.Text = "Mostrar";
+            this.button2.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(280, 130);
+            this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
+            this.button3.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button3.Location = new System.Drawing.Point(12, 44);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(86, 41);
+            this.button3.Size = new System.Drawing.Size(86, 55);
             this.button3.TabIndex = 3;
             this.button3.Text = "Insertar";
+            this.button3.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(464, 130);
+            this.button4.Image = ((System.Drawing.Image)(resources.GetObject("button4.Image")));
+            this.button4.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button4.Location = new System.Drawing.Point(12, 167);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(79, 41);
+            this.button4.Size = new System.Drawing.Size(86, 53);
             this.button4.TabIndex = 4;
             this.button4.Text = "Eliminar";
+            this.button4.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button4.UseVisualStyleBackColor = true;
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(464, 210);
+            this.button5.Image = ((System.Drawing.Image)(resources.GetObject("button5.Image")));
+            this.button5.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button5.Location = new System.Drawing.Point(12, 105);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(79, 44);
+            this.button5.Size = new System.Drawing.Size(86, 56);
             this.button5.TabIndex = 5;
             this.button5.Text = "Modificar";
+            this.button5.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button5.UseVisualStyleBackColor = true;
             // 
             // ListasEnlazadas
@@ -103,13 +116,16 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.ClientSize = new System.Drawing.Size(819, 456);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
+            this.DoubleBuffered = true;
             this.Name = "ListasEnlazadas";
             this.Text = "ListasEnlazadas";
             this.TransparencyKey = System.Drawing.Color.DimGray;
